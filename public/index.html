@@ -30,6 +30,29 @@
   </head>
 
   <body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBLtgnuOJ1akIuDkxeb6AvM3L_GJnU6SZg",
+        authDomain: "personal-site-8dc06.firebaseapp.com",
+        projectId: "personal-site-8dc06",
+        storageBucket: "personal-site-8dc06.appspot.com",
+        messagingSenderId: "794093092699",
+        appId: "1:794093092699:web:2fda85b797384c739ca47e",
+        measurementId: "G-W8H1NH55VH"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
     <!-- Navbar -->
     <nav>
       <h1>JANE DOE</h1>
