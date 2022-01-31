@@ -1,0 +1,23 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Initial Install",
+  "main": "index.js",
+  "scripts": {
+    "build":"echo \"Building\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgbotta/personal-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgbotta/personal-site/issues"
+  },
+  "homepage": "https://github.com/cgbotta/personal-site#readme",
+  "dependencies": {
+    "sass": "^1.49.0"
+  }
+}
